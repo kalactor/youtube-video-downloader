@@ -7,7 +7,10 @@ This python script uses Pytube library for downloading videos. One can use pytub
 2. <a href="https://ffmpeg.org/">FFMPEG</a> for merging 1080p video and audio stream </br>
 
 <h2>Installation</h2>
+<b>For Debian Distro</b> </br>
 1. Python - <code> sudo apt install python3</code> </br>
 2. Pytube - <code> pip install pytube</code> </br>
 3. FFMPEG -  <code>sudo apt install ffmpeg</code> </br>
+</br>
+After installing requirements clone the repo, go to the download folder and hit <code> python3 youtube.py</code> or <code> python youtube.py</code> 
 
