@@ -13,5 +13,6 @@ This python script uses Pytube library for downloading videos. One can use pytub
 3. FFMPEG -  <code>sudo apt install ffmpeg</code> </br>
 </br>
 After installing requirements clone the repo <code>https://github.com/kalactor/youtube-video-downloader.git</code> </br>
-Navigate to downloaded folder and hit <code> python3 youtube.py</code> or <code> python youtube.py</code> 
+Navigate to downloaded folder and give execute permission to conver.sh file by running this command <code>chmod +x convert.sh</code> in terminal </br>
+And hit <code> python3 youtube.py</code> or <code> python youtube.py</code> in terminal
 
