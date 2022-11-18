@@ -1,5 +1,6 @@
 from pytube import YouTube
 import os
+import subprocess
 
 # this function download video in 1080p
 def Download1080(url):
@@ -11,6 +12,9 @@ def Download1080(url):
         aud = yObj.streams.filter(only_audio=True, abr="160kbps")
         aud = aud[0].download()
         os.rename(aud,"audio.webm")
+        subprocess.call("./convert.sh")
+        os.remove("video.mp4")
+        os.remove("audio.webm")
     except:
         ("Check URL : error in downloading 1080p")
 
